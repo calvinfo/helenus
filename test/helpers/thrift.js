@@ -1,4 +1,4 @@
-{
+module.exports = {
   "keyspace"     : "helenus_test_keyspace",
   "cf_standard"  : "cf_standard_test",
   "cf_standard_composite"  : "cf_standard_composite_test",

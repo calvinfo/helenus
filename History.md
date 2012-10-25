@@ -162,7 +162,7 @@
 0.5.6 / 2012-08-03
 ==================
 
-  * Fixed issue with serializatoin of start / end in range queries [ @devdazed ]
+  * Fixed issue with serialization of start / end in range queries [ @devdazed ]
 
 0.5.7 / 2012-08-26
 ==================
@@ -177,3 +177,14 @@
   * Added hostPoolSize on ConnectionPool [ @hpainter #70 ]
   * Fixed issue with interpolating array parameters [ @devdazed #68 ]
 
+0.5.9 / 2012-10-17
+==================
+
+  * Added fully functional composite column slices [ @devdazed #82 ]
+
+0.6.0 / 2012-10-19
+==================
+
+  * Fixed issue with composite column meta column marshalling [ @devdazed ]
+  * Exposed setColumnValidator to the user [ @devdazed #3 ]
+  * Added support for column counts to Thrift API [ @devdazed #26 ]
